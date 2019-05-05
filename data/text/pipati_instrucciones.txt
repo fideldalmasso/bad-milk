@@ -1,0 +1,13 @@
+
+==============================================================================================================
+||                                                                                                          ||
+||                                                                                                          ||
+||   Este juego es el clásico Piedra, Papel o Tijera. Consta de 5 rondas en donde hay que elegir entre:     ||
+||   -Piedra: vence a tijera.                                                                               ||
+||   -Papel: vence a piedra.                                                                                ||
+||   -Tijera: vence a papel.                                                                                ||
+||   El objetivo del juego es sumar más puntos que la computadora, por cada ronda ganada se suma 1          ||
+||   punto, en caso de empate o derrota no se suman puntos.                                                 ||
+||                                                                                                          ||
+||                                                                                                          ||
+==============================================================================================================

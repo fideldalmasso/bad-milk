@@ -1,0 +1,14 @@
+==============================================================================================================
+||                                                                                                          ||
+||                                                                                                          ||
+||   El objetivo del juego es formar la mayor cantidad de juegos posibles para sumar más puntos que         ||
+||   la computadora y ganar. Primero cada jugador lanza un dado y el de mayor valor empieza. Luego          ||
+||   comienzan las tiradas de cada jugador (10 para cada uno) en las que se lanzan tres dados.              ||
+||   Juegos válidos:                                                                                        ||
+||   -Generala (50 puntos): 3 dados iguales.                                                                ||
+||   -Escalera (25 puntos): 3 dados con números consecutivos.                                               ||
+||   -Valor numérico ((2 x valor) puntos): 2 dados iguales.                                                 ||
+||   -Si los números no forman ninguna jugada de las anteriores, entonces no se obtienen puntos.            ||
+||                                                                                                          ||
+||                                                                                                          ||
+==============================================================================================================

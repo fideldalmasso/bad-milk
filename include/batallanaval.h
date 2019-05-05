@@ -1,0 +1,2 @@
+int batallanaval();
+void instruccionesBatalla();

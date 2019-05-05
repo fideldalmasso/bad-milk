@@ -1,0 +1,16 @@
+========================================================================================
+||                                                                                    ||
+||                                                                                    ||
+||   El juego consta de un tablero de 6x6, con pares de letras (una en minúscula y    ||
+||   la misma en mayúscula) escondidas en distintas posiciones. El objetivo del       ||
+||   juego es encontrar las parejas de letras (minúscula, mayúscula) ingresando las   ||
+||   coordenadas de las casillas por las que se quiere preguntar. Si las posiciones   ||
+||   coinciden con el par (minúscula, mayúscula)  de la misma letra, ha acertado.     ||
+||   En caso contrario, ha fallado.                                                   ||
+||   Inicialmente, tiene 100 puntos. Por cada par de letras que no acierte, se le     ||
+||   descuentan 5 puntos. El juego termina cuando hayas adivinado todos los pares     ||
+||   (es decir, si descubriste todas las casillas del tablero) o cuando te quedes     ||
+||   sin puntos.                                                                      ||
+||                                                                                    ||
+||                                                                                    ||
+========================================================================================

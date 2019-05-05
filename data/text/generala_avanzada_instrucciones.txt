@@ -1,0 +1,21 @@
+==============================================================================================================
+||                                                                                                          ||
+||                                                                                                          ||
+||   El objetivo del juego es formar la mayor cantidad de juegos posibles para sumar más puntos que         ||
+||   la computadora y ganar. Primero cada jugador lanza un dado y el de mayor valor empieza. Luego          ||
+||   comienzan las tiradas de cada jugador (10 para cada uno) en las que se lanzan cinco dados. En tu       ||
+||   caso tendrás una segunda tirada para elegir que dados volver a tirar.                                  ||
+||   Juegos válidos:                                                                                        ||
+||   -Generala servida (55 puntos): 5 dados iguales en el primer intento.                                   ||
+||   -Generala armada (50 puntos): 5 dados iguales en el segundo intento.                                   ||
+||   -Poker servido (45 puntos): 4 dados iguales en el primer intento.                                      ||
+||   -Poker armado (40 puntos): 4 dados iguales en el segundo intento.                                      ||
+||   -Full servido (35 puntos): 3 dados iguales y otros 2 iguales.                                          ||
+||   -Full armado (30 puntos): 3 dados iguales y otros 2 iguales.                                           ||
+||   -Escalera servida (25 puntos): 5 dados con números consecutivos en el primer intento.                  ||
+||   -Escalera armada (20 puntos): 5 dados con números consecutivos en el segundo intento.                  ||
+||   -Valores numéricos ((número más repetido x repeticiones) puntos): se ponen puntos al valor             ||
+||   número que aún no haya anotado y que se repita más veces.                                              ||
+||                                                                                                          ||
+||                                                                                                          ||
+==============================================================================================================

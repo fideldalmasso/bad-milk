@@ -1,0 +1,12 @@
+==============================================================================================
+||                                                                                          ||
+||                                                                                          ||
+||   Este juego cuenta con una base de palabras asociadas a la codificación de algoritmos   ||
+||   y al lenguaje de programación C++. El objetivo es adivinar la palabra secreta antes    ||
+||   de quedarse sin intentos, los cuales se indican con las partes del cuerpo de un        ||
+||   'muñeco', como en el ahorcado tradicional. Se ingresa una letra por vez, y a           ||
+||   continuación se indica si la letra forma parte de la palabra o no. El juego termina    ||
+||   cuando se adivina la palabra o cuando se terminan los intentos. ¡A jugar!              ||
+||                                                                                          ||
+||                                                                                          ||
+==============================================================================================

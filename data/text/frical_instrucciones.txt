@@ -1,0 +1,12 @@
+==============================================================================================================
+||                                                                                                          ||
+||                                                                                                          ||
+||   El objetivo del juego es adivinar un número entero entre 1 y 100, para esto tendrás diez intentos.     ||
+||   Si no aciertas, y:                                                                                     ||
+||   -El número buscado es mayor al ingresado, aparecerá un mensaje de 'Estás frío'.                        ||
+||   -El número buscado es menor al ingresado, aparecerá un mensaje de 'Estás caliente'                     ||
+||   Por cada intento que no aciertes se te descuente un punto, siendo el puntaje más alto 10 y el más      ||
+||   bajo 0.                                                                                                ||
+||                                                                                                          ||
+||                                                                                                          ||
+==============================================================================================================

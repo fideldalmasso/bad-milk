@@ -1,0 +1,1 @@
+void generala_avanzada();

@@ -1,0 +1,14 @@
+===========================================================================================
+||                                                                                       ||
+||                                                                                       ||
+||   El objetivo del juego es hundir los 7 barcos que se encuentran distribuidos en      ||
+||   el tablero. Se comienza con 100 puntos y se tienen que ir dando las coordenadas     ||
+||   del disparo y se indicará: 'Agua', si la casilla estaba vacía; 'Fuego', si la       ||
+||   casilla correspondía a la parte de un barco; 'Fuego y hundido', en caso de que      ||
+||   haya sido fuego pero además ya se hayan disparado todas las posiciones del barco;   ||
+||   y 'Mina', si la casilla disparada contenía una mina del enemigo. Por cada 'Mina'    ||
+||   se descuentan 5 puntos y por 'Agua' se descuenta 1 punto. El juego termina cuando   ||
+||   se hayan hundido todos los barcos o el puntaje haya llegado a cero. ¡A jugar!       ||
+||                                                                                       ||
+||                                                                                       ||
+===========================================================================================
