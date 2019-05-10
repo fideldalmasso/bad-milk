@@ -76,7 +76,7 @@ void jugargenerala(){
 	auto comienzo = chrono::steady_clock::now();
 	
 	int dado1, dado2, dado3;                        //dado1, dado2 y dado3 representan cada uno de los 3 dados
-	bool turno;                         //si turno = true, entonces es el turno del jugador
+	bool turno=false;                         //si turno = true, entonces es el turno del jugador
 	int suma, puntajejugador, puntajepc;
 	suma = puntajejugador = puntajepc = 0;
 //	srand(time(0));                     // generación de seed para número aleatorio

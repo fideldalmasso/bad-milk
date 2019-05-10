@@ -41,7 +41,7 @@ void pares() {
 	
 	
 	char opcion;
-	bool modografico;
+	bool modografico=false;
 	
 	gotoxy(0,17);
 	dormir(200);
