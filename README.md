@@ -20,6 +20,7 @@ The project was exclusively written in C++ using mainly [Zinjai](http://zinjai.s
 
 ![screenshots](../assets/collage-menu.png)
 
+[Click here](https://github.com/fideldalmasso/bad-milk/tree/assets) for more screenshots.
 
 ## Games included
 |Name   | Description| 
@@ -54,13 +55,3 @@ Finally, run the program by:
 If this last step doesn't work, first run the following and try it again:
 ```
 chmod +x bad-milk
-```
-
-## Licence
-
-![screenshots](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
-
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-
-
-
