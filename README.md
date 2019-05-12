@@ -40,7 +40,7 @@ Just download the installer from [here](https://github.com/fideldalmasso/bad-mil
 Make sure you have git and build-essential package installed
 First, clone this repository in your computer:
 ```
-git clone https://github.com/fideldalmasso/Bad-Milk.git
+git clone https://github.com/fideldalmasso/bad-milk.git
 ```
 Then run:
 ```
