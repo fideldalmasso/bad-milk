@@ -37,8 +37,7 @@ The project was exclusively written in C++ using mainly [Zinjai](http://zinjai.s
 Just download the installer from [here](https://github.com/fideldalmasso/bad-milk/releases/download/v18.3/installer.exe) and follow the instructions. 
 
 ### Linux: building from source
-Make sure you have git and build-essential package installed
-First, clone this repository in your computer:
+Make sure you have git and build-essential package installed. First, clone this repository in your computer:
 ```
 git clone https://github.com/fideldalmasso/bad-milk.git
 ```
