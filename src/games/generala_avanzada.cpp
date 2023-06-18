@@ -44,27 +44,27 @@ void generala_avanzada() {
 		resize(ANCHO,33);
 		cout << endl;
 		
-		centrar("- Categor"+s('�')+"a juegos num"+s('�')+"ricos -");
+		centrar("- Categoria juegos numericos -");
 		gotoxy (0,3);
 		leerarchivo("generala_avanzada_titulo.txt", verde);
 		
 		
 		cout << "\n\n";
 		dormir(300);
-		colorear("amarillo",s('�')+"Presion"+s('�')+" un n"+s('�')+"mero y enter para elegir!\n");
+		colorear("amarillo",+"Presiona un numero y enter para elegir!\n");
 		dormir(200);
-		centrar("1."+s('�')+"A jugar!");
+		centrar("1. A jugar!");
 		dormir(200);
-		centrar("2."+s('�')+"C"+s('�')+"mo se juega?");
+		centrar("2. Como se juega?");
 		dormir(200);
-		colorear("rojo","9. Volver al men"+s('�')+" de juegos");
+		colorear("rojo","9. Volver al menu de juegos");
 		
 		gotoxy(62,31);
 		cin >> selector;
 		
 		while (selector != '1' and selector != '2' and selector != '9'){
 			gotoxy(0,26);
-			colorear("amarillo",s('�')+"PSSS, presion"+s('�')+" un n"+s('�')+"mero y enter para elegir!");
+			colorear("amarillo","PSSS, presion"+s('�')+" un n"+s('�')+"mero y enter para elegir!");
 			gotoxy(0,31);
 			centrar("                    ");
 			gotoxy(62,31);
@@ -135,7 +135,7 @@ void instrucciones () {
 	
 }
 
-//Funci�n que determina quien comienza la partida.
+//Funcion que determina quien comienza la partida.
 bool inicio () {
 	bool comienzaUsuario=0; //Booleano que determina quien comienza (si vale 1 comienza el jugador, si vale 0 comienza la computadora).
 	int dadoUsuario; //Valor del dado lanzado por el jugador.
@@ -154,7 +154,7 @@ bool inicio () {
 	} while (dadoUsuario==dadoComputadora);
 	
 	centrar(44,1,2);
-	cout  <<s('�')<<"Se lanzan los dado para ver quien comienza!";
+	cout  <<"Se lanzan los dado para ver quien comienza!";
 	centrar(26,4,2);
 	cout << "Lanzas el dado y obtienes:";
 	animacionDado(dadoUsuario, 6, 2);
@@ -166,12 +166,12 @@ bool inicio () {
 	if (comienzaUsuario == 1) {
 		centrar(15,21,2);
 		color(verde);
-		cout <<s('�')<< "Empez"+s('�')+"s vos!";
+		cout <<"Empezas vos!";
 		color(blanco);
 	} else {
 		centrar(25,21,2);
 		color(rojo);
-		cout <<s('�')<< "Empieza la computadora!";
+		cout <<"Empieza la computadora!";
 		color(blanco);
 	}
 	
@@ -189,7 +189,7 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 	//Estructura de seleccion que anuncia el numero de la tirada y a quien corresponde (computadora o jugador)
 	if (comienzaUsuario==1){
 		centrar(23,1,2);
-		cout << "Tirada N"<<s('�')<<" " << (numeroTirada+1) << " del ";
+		cout << "Tirada N# "<< (numeroTirada+1) << " del ";
 		color(verde);
 		cout << "Jugador";;
 		color(blanco);
@@ -198,13 +198,13 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 		cout << "Primer intento:";
 	} else {
 		centrar(30,1,2);
-		cout << "Tirada N"<<s('�') << " " << (numeroTirada+1) << " de la ";
+		cout << "Tirada N# " << (numeroTirada+1) << " de la ";
 		color(rojo);
 		cout << "Computadora:";
 		color(blanco);
 		cout << ":" << endl;
 		centrar(14,3,2);
-		cout << s('�')+"nico intento:";
+		cout << "Unico intento:";
 	}
 	
 	//Estructura iterativa que inicializa el arreglo de dados con valores aleatorios entre 1 y 6
@@ -214,19 +214,19 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 	
 	//Procedimientos que muestran los cinco dados arrojados
 	centrar(10,4,1);
-	cout << "Dado N"<<s('�')<<" 1:";
+	cout << "Dado N# 1:";
 	animacionDado(tirada[0], 5, 1);
 	centrar(10,4,3);
-	cout << "Dado N"<<s('�')<<" 2:";
+	cout << "Dado N# 2:";
 	animacionDado(tirada[1], 5, 3);
 	centrar(10,11,1);
-	cout << "Dado N"<<s('�')<<" 3:";
+	cout << "Dado N# 3:";
 	animacionDado(tirada[2], 12, 1);
 	centrar(10,11,3);
-	cout << "Dado N"<<s('�')<<" 4:";
+	cout << "Dado N# 4:";
 	animacionDado(tirada[3], 12, 3);
 	centrar(10,18,2);
-	cout << "Dado N"<<s('�')<<" 5:";
+	cout << "Dado N# 5:";
 	animacionDado(tirada[4], 19, 2);
 	
 	//Estrctura de seleccion que da la posibilidad de que el jugador tenga un segundo intento
@@ -240,7 +240,7 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 		while (dadosDescartar < 0 or dadosDescartar > 5){
 			color(rojo);
 			centrar(80,25,2);
-			cout << "El n"+s('�')+"mero de dados a descartar tiene que estar entre 0 y 5. Prueba otra vez:          ";
+			cout << "El numero de dados a descartar tiene que estar entre 0 y 5. Prueba otra vez:          ";
 			color(blanco);
 			centrar(99,25,0);
 			cin >> dadosDescartar;
@@ -266,7 +266,7 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 					while (posicion < 1 or posicion > 5){
 						color(rojo);
 						centrar(80,27,2);
-						cout << "El n"+s('�')+"mero del dado a descartar tiene que estar entre 1 y 5. Prueba otra vez:          ";
+						cout << "El numero del dado a descartar tiene que estar entre 1 y 5. Prueba otra vez:          ";
 						color(blanco);
 						centrar ((99+2*i),27,0);
 						cin >> posicion;
@@ -295,27 +295,27 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 					switch (i){
 					case 0:
 						centrar(10,4,1);
-						cout << "Dado N"<<s('�')<<" 1:";
+						cout << "Dado N# 1:";
 						animacionDado(tirada[i], 5, 1);
 						break;
 					case 1:
 						centrar(10,4,3);
-						cout << "Dado N"<<s('�')<<" 2:";
+						cout << "Dado N# 2:";
 						animacionDado(tirada[i], 5, 3);
 						break;
 					case 2:
 						centrar(10,11,1);
-						cout << "Dado N"<<s('�')<<" 3:";
+						cout << "Dado N# 3:";
 						animacionDado(tirada[i], 12, 1);
 						break;
 					case 3:
 						centrar(10,11,3);
-						cout << "Dado N"<<s('�')<<" 4:";
+						cout << "Dado N# 4:";
 						animacionDado(tirada[i], 12, 3);
 						break;
 					case 4:
 						centrar(10,18,2);
-						cout << "Dado N"<<s('�')<<" 5:";
+						cout << "Dado N# 5:";
 						animacionDado(tirada[i], 19, 2);
 						break;
 					}
@@ -324,27 +324,27 @@ void lanzamiento (bool comienzaUsuario, bool & segundaTirada, int tirada [], int
 					switch (i){
 					case 0:
 						centrar(10,4,1);
-						cout << "Dado N"<<s('�')<<" 1:";
+						cout << "Dado N# 1:";
 						imagenDado(tirada[i], 5, 1);
 						break;
 					case 1:
 						centrar(10,4,3);
-						cout << "Dado N"<<s('�')<<" 2:";
+						cout << "Dado N# 2:";
 						imagenDado(tirada[i], 5, 3);
 						break;
 					case 2:
 						centrar(10,11,1);
-						cout << "Dado N"<<s('�')<<" 3:";
+						cout << "Dado N# 3:";
 						imagenDado(tirada[i], 12, 1);
 						break;
 					case 3:
 						centrar(10,11,3);
-						cout << "Dado N"<<s('�')<<" 4:";
+						cout << "Dado N# 4:";
 						imagenDado(tirada[i], 12, 3);
 						break;
 					case 4:
 						centrar(10,18,2);
-						cout << "Dado N"<<s('�')<<" 5:";
+						cout << "Dado N# 5:";
 						imagenDado(tirada[i], 19, 2);
 						break;
 					}
@@ -541,23 +541,23 @@ void resultadoParcial (int puntos [][JUGADORES], int numeroTirada){
 	centrar(7,6,2);
 	cout << "JUGADOR";
 	centrar(16,8,1);
-	cout << "Valor num"<<s('�')<<"rico 1";
+	cout << "Valor numerico 1";
 	centrar(16,10,1);
-	cout << "Valor num"<<s('�')<<"rico 2";
+	cout << "Valor numerico 2";
 	centrar(16,12,1);
-	cout << "Valor num"<<s('�')<<"rico 3";
+	cout << "Valor numerico 3";
 	centrar(16,14,1);
-	cout << "Valor num"<<s('�')<<"rico 4";
+	cout << "Valor numerico 4";
 	centrar(16,16,1);
-	cout << "Valor num"<<s('�')<<"rico 5";
+	cout << "Valor numerico 5";
 	centrar(16,18,1);
-	cout << "Valor num"<<s('�')<<"rico 6";
+	cout << "Valor numerico 6";
 	centrar(8,20,1);
 	cout << "Escalera";
 	centrar(4,22,1);
 	cout << "Full";
 	centrar(5,24,1);
-	cout << "P"<<s('�')<<"ker";
+	cout << "Poker";
 	centrar(8,26,1);
 	cout << "Generala";
 	centrar(5,28,1);
@@ -605,15 +605,15 @@ void resultadoFinal (int puntos[][JUGADORES], int duracion){
 	centrar (9, 15, 2);
 	if (puntajeTotalComputadora < puntajeTotalJugador){
 		color(verde);
-		cout <<s('�')<<"GANASTE!" << endl;
+		cout << "GANASTE!" << endl;
 		guardar_partida(4,puntajeTotalJugador,puntajeTotalComputadora,1,duracion);
 	} else {
 		if (puntajeTotalComputadora == puntajeTotalJugador){
-			cout <<s('�')<<"EMPATE!" << endl;
+			cout <<"EMPATE!" << endl;
 			guardar_partida(4,puntajeTotalJugador,puntajeTotalComputadora,3,duracion);
 		} else {
 			color(rojo);
-			cout <<s('�')<<"PERDISTE!" << endl;
+			cout <<"PERDISTE!" << endl;
 			guardar_partida(4,puntajeTotalJugador,puntajeTotalComputadora,2,duracion);
 		}
 	}
