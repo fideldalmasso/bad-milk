@@ -64,7 +64,7 @@ void generala_avanzada() {
 		
 		while (selector != '1' and selector != '2' and selector != '9'){
 			gotoxy(0,26);
-			colorear("amarillo","PSSS, presion"+s('�')+" un n"+s('�')+"mero y enter para elegir!");
+			colorear("amarillo","PSSS, presiona un numero y enter para elegir!");
 			gotoxy(0,31);
 			centrar("                    ");
 			gotoxy(62,31);
